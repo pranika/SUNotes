@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/ic_menu_slideshow"
+
+            android:title="SU Live!" />
+        <item
+            android:id="@+id/courses"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Courses" />
+        <item
+            android:id="@+id/deadlines"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Deadlines" />
+        <item
+            android:id="@+id/bus"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="BusTimings" />
+        <item
+            android:id="@+id/officeHours"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="OfficeHours" />
+        <item
+            android:id="@+id/results"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Results" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

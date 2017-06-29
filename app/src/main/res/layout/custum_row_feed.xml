@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height= "wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/cardview"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/title_text"
+            android:layout_alignStart="@+id/title_text"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:id="@+id/date_text"
+                android:layout_width="193dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="4/19/2017"
+                android:textSize="8sp"
+                android:layout_marginRight="20sp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/thumb_img" />
+
+            <ImageView
+                android:id="@+id/overflow"
+                android:layout_width="20sp"
+                android:layout_height="18sp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/delete"
+                android:nextFocusRight="@+id/date_text" />
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/thumb_img"
+            android:layout_width="90sp"
+            android:layout_height="100sp"
+            android:src="@drawable/test"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:background="@color/cardview_light_background"
+            android:gravity="left"
+            android:lines="1"
+            android:text="Kunal Paliwal"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/thumb_img"
+            android:layout_toEndOf="@+id/thumb_img" />
+
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:text="Medium Text"
+            android:gravity="left"
+            android:fontFamily="@string/font_family_thin"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_toRightOf="@+id/thumb_img"
+            android:layout_toEndOf="@+id/thumb_img"
+            android:layout_alignBottom="@+id/thumb_img"
+            android:layout_below="@+id/title_text" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

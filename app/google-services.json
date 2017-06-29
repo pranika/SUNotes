@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "350453670907",
+    "firebase_url": "https://sunotes-165703.firebaseio.com",
+    "project_id": "sunotes-165703",
+    "storage_bucket": "sunotes-165703.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350453670907:android:5047779d2816df0f",
+        "android_client_info": {
+          "package_name": "com.example.kupal.sunotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350453670907-6sov9ko3v5psmigmntib55vntah4tn1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw5xQIs5viTGPnYDB8n7RRtt9Zf4QHXyY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
